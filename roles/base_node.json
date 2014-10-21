@@ -1,0 +1,7 @@
+{
+  "name": "base_node",
+  "description": "Role for all servers",
+  "run_list": [
+    "recipe[chef-client]"
+  ]
+}
