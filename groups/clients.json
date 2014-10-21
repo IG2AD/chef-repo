@@ -1,0 +1,8 @@
+{
+  "name": "clients",
+  "clients": [
+    "ig2ad-validator",
+    "chef.ig2ad.com",
+    "work.ig2ad.com"
+  ]
+}
