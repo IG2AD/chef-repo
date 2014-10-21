@@ -4,3 +4,16 @@
 # Ignore Chef key files and secrets
 ###
 .chef/
+
+###
+# Ignore file the do not need tracking
+# Mainly in here for backups
+###
+acls/
+groups/
+nodes/
+containers/
+clients/
+environments/
+roles/
+
