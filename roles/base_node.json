@@ -1,7 +1,17 @@
 {
   "name": "base_node",
   "description": "Role for all servers",
+  "default_attributes": {
+    "chef_client": {
+      "config": {
+        "ssl_verify_mode": ":verify_peer",
+        "client_fork": "true"
+      }
+    }
+  },
   "run_list": [
-    "recipe[chef-client]"
+    "recipe[chef-client]", "recipe[chef-client::config]"
   ]
 }
+
+
