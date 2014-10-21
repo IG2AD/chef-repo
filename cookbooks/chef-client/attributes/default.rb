@@ -41,6 +41,8 @@ default['chef_client']['interval']    = '1800'
 default['chef_client']['splay']       = '300'
 default['chef_client']['conf_dir']    = '/etc/chef'
 default['chef_client']['bin']         = '/usr/bin/chef-client'
+default['chef_client']['trusted_certs_dir'] = "#{node['chef_client']['conf_dir']}/trusted_certs"
+default['chef_client']['trusted_cert'] = ""
 
 # Set a sane default log directory location, overriden by specific
 # platforms below.
