@@ -1,0 +1,53 @@
+{
+  "create": {
+    "actors": [
+      "chef.ig2ad.com",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "read": {
+    "actors": [
+      "chef.ig2ad.com",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "clients",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "chef.ig2ad.com",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "chef.ig2ad.com",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "chef.ig2ad.com",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}
