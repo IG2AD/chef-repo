@@ -67,8 +67,8 @@ end
 
 # We need to set these local variables because the methods aren't
 # available in the Chef::Resource scope
-d_owner = 'root'
-d_group = 'root'
+d_owner = dir_owner
+d_group = dir_group
 
 template "#{node["chef_client"]["conf_dir"]}/client.rb" do
   source 'client.rb.erb'
