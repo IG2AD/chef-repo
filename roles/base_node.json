@@ -7,9 +7,10 @@
         "ssl_verify_mode": ":verify_peer",
         "client_fork": "true"
       }
-    }
+    },
     "logwatch": {
       "email": "aditaa@ig2ad.com"
+    }
   },
   "run_list": [
     "recipe[chef-client]", "recipe[chef-client::config]", "recipe[logwatch]"
