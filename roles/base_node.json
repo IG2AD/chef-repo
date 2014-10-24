@@ -4,7 +4,6 @@
   "default_attributes": {
     "chef_client": {
       "config": {
-        "ssl_verify_mode": ":verify_peer",
         "client_fork": "true"
       }
     },
@@ -13,7 +12,7 @@
     }
   },
   "run_list": [
-    "recipe[chef-client]", "recipe[chef-client::config]", "recipe[logwatch]"
+    "recipe[chef-client]", "recipe[chef-client::config]", "recipe[logwatch]", "recipe[build-essential::default]", "recipe[yum]"
   ]
 }
 
